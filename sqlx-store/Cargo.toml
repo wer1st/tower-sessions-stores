@@ -39,11 +39,11 @@ time = { version = "0.3", optional = true }
 tower-sessions-core = { version = "0.14", features = ["deletion-task"] }
 
 [dev-dependencies]
-axum = "0.8.7"
+axum = "0.8.8"
 time = { version = "0.3" }
 tower-sessions = "0.14.0"
-tokio = { version = "1.48", features = ["full"] }
-tokio-test = "0.4.4"
+tokio = { version = "1.49", features = ["full"] }
+tokio-test = "0.4.5"
 serde = "1"
 
 [[example]]
